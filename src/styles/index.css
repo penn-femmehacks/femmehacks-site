@@ -1,0 +1,35 @@
+h1, h2 {
+  font-family: Comfortaa, 'Comfortaa', Chivo, 'Chivo', 'Alata', sans-serif;
+}
+
+h3 {
+  font-family: Chivo, 'Chivo', sans-serif;
+}
+
+p {
+  font-family: Chivo, 'Chivo', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: #526EF4;
+  font-weight: 400;
+}
+
+a:hover {
+  color: #526EF4;
+}
+
+.header-register-btn:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-item:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.sponsor-logo-class {
+  width: 260px;
+}
