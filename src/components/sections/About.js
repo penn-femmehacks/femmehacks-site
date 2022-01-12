@@ -19,76 +19,83 @@ import Img4 from '../../images/events/event-2018.jpg'
 import Img5 from '../../images/events/2020-event.jpg'
 
 const images = [
-    {
-      original: Img5,
-      thumbnail: Img5,
-    },
-    {
-      original: Img4,
-      thumbnail: Img4,
-    },
-    {
-      original: Img3,
-      thumbnail: Img3,
-    },
-    {
-      original: Img1,
-      thumbnail: Img1,
-    },
-    {
-      original: Img2,
-      thumbnail: Img2,
-    },
+  {
+    original: Img5,
+    thumbnail: Img5,
+  },
+  {
+    original: Img4,
+    thumbnail: Img4,
+  },
+  {
+    original: Img3,
+    thumbnail: Img3,
+  },
+  {
+    original: Img1,
+    thumbnail: Img1,
+  },
+  {
+    original: Img2,
+    thumbnail: Img2,
+  },
 ];
 
 
 const About = () => (
   <Section id="about">
     <Container>
-      <h1>About FemmeHacks <Emoji symbol="🎉"/></h1>
-      <br/><br/>
+      <h1>About FemmeHacks <Emoji symbol="🎉" /></h1>
+      <br /><br />
       <Row>
         <Col xs={12} md={6} lg={4}>
           <h3>What is FemmeHacks?</h3>
-          <p>Now running on our 7th year, FemmeHacks is a two-day collegiate hackathon 
-          hosted at the University of Pennsylvania by the university’s Women in Computer 
-          Science chapter. FemmeHacks aims to <b>empower</b>, <b>educate</b>, and <b>inspire </b> 
-          women and non-binary folks across the nation. After forming teams, 
-          attendees build a variety of web, mobile, and hardware applications, learn from 
-          workshops, and attend various speaker events. This year, FemmeHacks will be held 
-          virtually. </p>
+          <p>Now running on our 8th year, FemmeHacks is a two-day collegiate hackathon
+            hosted at the University of Pennsylvania by the university’s Women in Computer
+            Science chapter. FemmeHacks aims to <b>empower</b>, <b>educate</b>, and <b>inspire </b>
+            women and non-binary folks across the nation. After forming teams,
+            attendees build a variety of web, mobile, and hardware applications, learn from
+            workshops, and attend various speaker events. This year, FemmeHacks will be held
+            virtually. </p>
         </Col>
 
         <Col xs={12} md={6} lg={4}>
           <h3>Who can attend?</h3>
-          <p>FemmeHacks welcomes trans and cis women, non-binary, and gender non-conforming 
-          people of all levels of experience – equality for all! Participants range from students 
-          from a variety of schools such as University of Pennsylvania, Princeton, Drexel, 
-          Rutgers, Bryn Mawr, Villanova, Temple, Haverford, as well as young talents from 
-          Philadelphia high schools looking to break into the tech field. Last year, we had <b>over 
-          200 attendees</b>!</p>
+          <p>FemmeHacks welcomes trans and cis women, non-binary, and gender non-conforming
+            people of all levels of experience – equality for all! Participants range from students
+            from a variety of schools such as University of Pennsylvania, Princeton, Drexel,
+            Rutgers, Bryn Mawr, Villanova, Temple, Haverford, as well as young talents from
+            Philadelphia high schools looking to break into the tech field. Last year, we had <b>over
+              300 attendees</b>!</p>
         </Col>
 
         <Col xs={12} md={6} lg={4}>
-        <h3>Why attend FemmeHacks?</h3>
+          <h3>Why attend FemmeHacks?</h3>
           {/* Can change workshop topics to this year's once we know them */}
-          <p>FemmeHacks is committed to education — we’ve hosted workshops on all sorts of topics, 
-          including GitHub, web development, iOS development and computer graphics. FemmeHacks also 
-          gives attendees the opportunity to connect with other women and non-binary people in the 
-          general tech community. Last year, over <b>87% of our attendees</b> said they made at least one valuable 
-          connection with a fellow student or mentor! We also have free swag for all attendees and
-          company-sponsored prizes for hackathon winners. </p>
+          <p>FemmeHacks is committed to education — we’ve hosted workshops on all sorts of topics,
+            including GitHub, web development, iOS development and computer graphics. FemmeHacks also
+            gives attendees the opportunity to connect with other women and non-binary people in the
+            general tech community. Last year, over <b>87% of our attendees</b> said they made at least one valuable
+            connection with a fellow student or mentor! We also have free swag for all attendees and
+            company-sponsored prizes for hackathon winners. </p>
         </Col>
 
       </Row>
       <Row>
         <div class="image-gallery-center">
-          <ImageGallery 
+          <ImageGallery
             items={images}
             showNav={false}
           />
         </div>
       </Row>
+      {/* <Row>
+        <div class="image-gallery-center">
+          <script src="https://unpkg.com/@ungap/custom-elements-builtin"></script>
+          <script type="module" src="https://unpkg.com/x-frame-bypass"></script>
+          <iframe width = '800vw' height = '600hw' is="x-frame-bypass" src="https://www.pennovation.upenn.edu/news/how-femmehacks-inspired-200-women-keep-pursuing-tech-careers"></iframe>
+        </div>
+      </Row> */}
     </Container>
   </Section>
 );
@@ -123,8 +130,8 @@ const Grid = styled.div`
     }
 
     ${props =>
-      props.inverse &&
-      `
+    props.inverse &&
+    `
         ${Art} {
           order: 2;
         }

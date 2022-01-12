@@ -66,13 +66,13 @@ class Navbar extends Component {
       <Nav {...this.props}>
         <StyledContainer>
           <Brand>
-          <Scrollspy 
-            items={ ['home'] }
-            style={{ margin: "0px", padding: "0px"}} >
-            <AnchorLink href={`#${"home"}`} onClick={this.closeMobileMenu}>
-              <img src={Logo} style={{ width:"220px" }} alt="Logo" />
-            </AnchorLink>
-          </Scrollspy>
+            <Scrollspy
+              items={['home']}
+              style={{ margin: "0px", padding: "0px" }} >
+              <AnchorLink href={`#${"home"}`} onClick={this.closeMobileMenu}>
+                <img src={Logo} style={{ width: "100px" }} alt="Logo" />
+              </AnchorLink>
+            </Scrollspy>
           </Brand>
           <Mobile>
             <button onClick={this.toggleMobileMenu} style={{ color: 'black' }}>

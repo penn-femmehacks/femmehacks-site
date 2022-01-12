@@ -49,13 +49,13 @@ const Header = () => (
                 An inclusive all-women &amp; non-binary hackathon. <Emoji symbol="👩‍💻" />
               </h1>
               <br />
-              <h3>February 5-6, 2021</h3>
+              <h3>February 11-12, 2022</h3>
               <br />
-              <p>Thank you for attending FemmeHacks 2021! <br /> We'd love to see you at FemmeHacks 2022 <Emoji symbol="😊" /> </p>
+              <p>Applications for FemmeHacks 2022 open now!</p>
               <p>
                 <div style={{ height: "24px" }}></div>
-                <StyledExternalLink className="header-register-btn" href="https://femmehacks-2021.devpost.com/project-gallery">
-                  View Projects &nbsp;&#x2794;
+                <StyledExternalLink className="header-register-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSeaSkU2ZfppdP9a4srNLh1A-rmnsU9hEQlK8YgCjGM7ykAWpg/viewform">
+                  Register now &nbsp;&#x2794;
                 </StyledExternalLink>
 
                 {/* <br/><br/>

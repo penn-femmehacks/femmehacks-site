@@ -1,7 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
-import FemmeHacksImg from '../../images/art/card.jpg';
+import FemmeHacksImg from '../../images/art/card.png';
 
 const SEO_DATA = {
   description: "Philadelphia's first all women and non-binary hackathon!",
@@ -9,7 +9,7 @@ const SEO_DATA = {
   url: '',
   author: 'ajayns',
   keywords: ['femmehacks', 'hackathon', 'womenintech', 'computerscience', 'diversity'],
-  img: '../../images/art/card.jpg',
+  img: '../../images/art/card.png',
   twitterId: '@ajayns_',
   facebookId: '',
 };

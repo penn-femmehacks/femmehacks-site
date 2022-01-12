@@ -57,7 +57,7 @@ const Footer = () => (
         <FooterWrapper>
           <StyledContainer>
             <Copyright>
-              <h5>© FemmeHacks 2021</h5>
+              <h5>© FemmeHacks 2022</h5>
               <span>
                 Made with &#9829; by FemmeHacks and Penn WiCS
                 {` `}

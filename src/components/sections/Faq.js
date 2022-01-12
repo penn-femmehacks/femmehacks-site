@@ -22,7 +22,7 @@ const GeneralFAQS = [
     title: 'When and where will FemmeHacks be?',
     content: () => (
       <p>
-        This year, FemmeHacks will take place on February 5th-6th, 2021. Because of
+        This year, FemmeHacks will take place on February 11th-12th, 2022. Because of
         COVID-19, FemmeHacks will be held entirely virtually, so you can hack from the
         comfort of your home!
       </p>
@@ -42,8 +42,8 @@ const GeneralFAQS = [
     content: () => (
       <p>
         Past attendees have made all sorts of web, mobile, and hardware
-        applications. <a href="https://femmehacks-2020.devpost.com/project-gallery" target="_blank">View
-        projects that our attendees built last year here</a>!
+        applications. <a href="https://femmehacks-2021.devpost.com/project-gallery" target="_blank">View
+          projects that our attendees built last year here</a>!
       </p>
     ),
   },
@@ -85,7 +85,7 @@ const RegistrationFAQS = [
     title: 'How can I register?',
     content: () => (
       <p>
-        Register through <a href="https://forms.gle/bfuQYtBepZurW7Pj9" target="_blank">this link</a>!
+        Register through <a href="https://docs.google.com/forms/d/e/1FAIpQLSeaSkU2ZfppdP9a4srNLh1A-rmnsU9hEQlK8YgCjGM7ykAWpg/viewform" target="_blank">this link</a>!
       </p>
     ),
   },
@@ -93,7 +93,7 @@ const RegistrationFAQS = [
     title: 'When do I need to register by?',
     content: () => (
       <p>
-        Registrations will be considered on a rolling basis until <b>January 29, 2021</b>.
+        Registrations will be considered on a rolling basis until <b>February 7th, 2022</b>.
         After then, we will only consider applications if we have the capacity for more hackers.
       </p>
     ),
