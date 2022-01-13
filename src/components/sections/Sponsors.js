@@ -16,7 +16,7 @@ import BloombergLogo from '@images/logos/bloomberg.png';
 import VanguardLogo from '@images/logos/vanguard1.png';
 import MetaLogo from '@images/logos/meta.png';
 // import UOLogo from '@images/logos/uo.png';
-// import TCPWLogo from '@images/logos/tcpw.png';
+import TCPWLogo from '@images/logos/tcpw.png';
 // import MckLogo from '@images/logos/mckinsey.png';
 // import TwilioLogo from '@images/logos/twilio.gif';
 
@@ -58,7 +58,7 @@ const Sponsors = () => (
               <a href="https://www.vanguardjobs.com/"> <img className="sponsor-logo-class" src={VanguardLogo} /> </a>
               {/* <a href="https://www.urbanoutfitters.com/careers"> <img height="180px" src={UOLogo} /> </a> */}
               <a href="https://www.bloomberg.com/company/engineering/"><img width="250px" src={BloombergLogo} /></a>
-              {/* <a href="https://www.alumni.upenn.edu/s/1587/gid2/16/interior_1col.aspx?sid=1587&gid=2&pgid=420"> <img className="sponsor-logo-class" src={TCPWLogo} /> </a> */}
+              <a href="https://www.alumni.upenn.edu/s/1587/gid2/16/interior_1col.aspx?sid=1587&gid=2&pgid=420"> <img className="sponsor-logo-class" src={TCPWLogo} /> </a>
               <a href="https://mackinstitute.wharton.upenn.edu"><img width="230px" src={MackLogo} /></a>
               <a href="https://www.linode.com/"><img width="230px" src={LinodeLogo} /></a>
               {/* <a href="https://www.mckinsey.com/careers/home"><img width="230px" src={MckLogo} /></a> */}
