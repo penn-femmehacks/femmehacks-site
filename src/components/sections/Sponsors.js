@@ -7,13 +7,14 @@ import { Section, Container } from '@components/global';
 import ExternalLink from '@common/ExternalLink';
 import Emoji from "../common/emoji"
 import GCPLogo from '@images/logos/gcp.png';
-import FacebookLogo from '@images/logos/facebook.png';
+// import FacebookLogo from '@images/logos/facebook.png';
 import MackLogo from '@images/logos/mack.png';
 
-// import OnePLogo from '@images/logos/1p.png';
+import OnePLogo from '@images/logos/1p.png';
 import BloombergLogo from '@images/logos/bloomberg.png';
 // import MsftLogo from '@images/logos/msft.png';
 import VanguardLogo from '@images/logos/vanguard1.png';
+import MetaLogo from '@images/logos/meta.png';
 // import UOLogo from '@images/logos/uo.png';
 // import TCPWLogo from '@images/logos/tcpw.png';
 // import MckLogo from '@images/logos/mckinsey.png';
@@ -52,7 +53,7 @@ const Sponsors = () => (
             <h1>Our 2022 Sponsors <Emoji symbol="💕" /></h1>
             <LogoGrid>
               <a href="https://cloud.google.com"> <img width="350" src={GCPLogo} /> </a>
-              <a href="https://www.facebook.com/careers/"> <img className="sponsor-logo-class" src={FacebookLogo} /> </a>
+              <a href="https://about.facebook.com/meta/"> <img className="sponsor-logo-class" src={MetaLogo} /> </a>
               {/* <a href="https://careers.microsoft.com/"> <img className="sponsor-logo-class" src={MsftLogo} /> </a> */}
               <a href="https://www.vanguardjobs.com/"> <img className="sponsor-logo-class" src={VanguardLogo} /> </a>
               {/* <a href="https://www.urbanoutfitters.com/careers"> <img height="180px" src={UOLogo} /> </a> */}
@@ -62,7 +63,7 @@ const Sponsors = () => (
               <a href="https://www.linode.com/"><img width="230px" src={LinodeLogo} /></a>
               {/* <a href="https://www.mckinsey.com/careers/home"><img width="230px" src={MckLogo} /></a> */}
               {/* <a href="https://www.twilio.com/company/jobs"><img width="230px" src={TwilioLogo} /></a> */}
-              {/* <a href="https://1password.com/jobs/"><img width="230px" src={OnePLogo} /></a> */}
+              <a href="https://1password.com/jobs/"><img width="230px" src={OnePLogo} /></a>
               {/* {LOGOS.map(({ logo, link }) => (
                 <ExternalLink key={link} href={link}>
                   {logo()}
