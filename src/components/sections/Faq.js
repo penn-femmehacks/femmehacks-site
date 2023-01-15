@@ -22,28 +22,26 @@ const GeneralFAQS = [
     title: 'When and where will FemmeHacks be?',
     content: () => (
       <p>
-        This year, FemmeHacks will take place on February 11th-12th, 2022. Because of
-        COVID-19, FemmeHacks will be held entirely virtually, so you can hack from the
-        comfort of your home!
+        This year, FemmeHacks will take place on February 10th-11th, 2023. We look forward to seeing all of you back in-person on Penn campus this year!
       </p>
     ),
   },
-  {
-    title: 'How will FemmeHacks work virtually?',
-    content: () => (
-      <p>
-        We will be using Discord
-        for communication purposes and Zoom for workshops! All meeting links will be compiled into an Airtable that only registered participants have access to.
-      </p>
-    ),
-  },
+  // {
+  //   title: 'How will FemmeHacks work virtually?',
+  //   content: () => (
+  //     <p>
+  //       We will be using Discord
+  //       for communication purposes and Zoom for workshops! All meeting links will be compiled into an Airtable that only registered participants have access to.
+  //     </p>
+  //   ),
+  // },
   {
     title: 'What kinds of projects have past attendees made?',
     content: () => (
       <p>
         Past attendees have made all sorts of web, mobile, and hardware
         applications. <a href="https://femmehacks-2021.devpost.com/project-gallery" target="_blank">View
-          projects that our attendees built last year here</a>!
+          projects that our attendees have built here</a>!
       </p>
     ),
   },
@@ -51,8 +49,7 @@ const GeneralFAQS = [
     title: 'Will there be swag or prizes?',
     content: () => (
       <p>
-        Yes! We'll be shipping all domestic
-        attendees FemmeHacks stickers, and hackers who submit project to Devpost will receive free t-shirts and face masks :)
+        Yes, there will be swag handed out at the event!
       </p>
     ),
   },
@@ -75,9 +72,7 @@ const RegistrationFAQS = [
     title: 'Who can attend FemmeHacks?',
     content: () => (
       <p>
-        Any women-identifying or non-binary folk can attend FemmeHacks, regardless of
-        physical location. Because this year is virtual, we especially encourage people
-        from outside of Philly to apply as well!
+        Any women-identifying or non-binary folk can attend FemmeHacks.
       </p>
     ),
   },
@@ -85,7 +80,7 @@ const RegistrationFAQS = [
     title: 'How can I register?',
     content: () => (
       <p>
-        Register through <a href="https://docs.google.com/forms/d/e/1FAIpQLSeaSkU2ZfppdP9a4srNLh1A-rmnsU9hEQlK8YgCjGM7ykAWpg/viewform" target="_blank">this link</a>!
+        Register through <a href="https://forms.gle/kkrF5KBK3j2Dgiw98" target="_blank">this link</a>!
       </p>
     ),
   },
@@ -93,7 +88,7 @@ const RegistrationFAQS = [
     title: 'When do I need to register by?',
     content: () => (
       <p>
-        Registrations will be considered on a rolling basis until <b>February 7th, 2022</b>.
+        Registrations will be considered on a rolling basis until <b>February 3th, 2023</b>.
         After then, we will only consider applications if we have the capacity for more hackers.
       </p>
     ),

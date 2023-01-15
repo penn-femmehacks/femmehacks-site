@@ -50,13 +50,12 @@ const About = () => (
       <Row>
         <Col xs={12} md={6} lg={4}>
           <h3>What is FemmeHacks?</h3>
-          <p>Now running on our 8th year, FemmeHacks is a two-day collegiate hackathon
+          <p>Now running on our 9th year, FemmeHacks is a two-day collegiate hackathon
             hosted at the University of Pennsylvania by the university’s Women in Computer
             Science chapter. FemmeHacks aims to <b>empower</b>, <b>educate</b>, and <b>inspire </b>
             women and non-binary folks across the nation. After forming teams,
             attendees build a variety of web, mobile, and hardware applications, learn from
-            workshops, and attend various speaker events. This year, FemmeHacks will be held
-            virtually. </p>
+            workshops, and attend various speaker events. This year, FemmeHacks will be back in-person! </p>
         </Col>
 
         <Col xs={12} md={6} lg={4}>

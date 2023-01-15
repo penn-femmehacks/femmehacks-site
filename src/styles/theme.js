@@ -6,6 +6,7 @@ const theme = {
     secondary: `Chivo-Light, 'Chivo-Light', Chivo, 'Chivo', sans-serif`,
   },
   font_size: {
+    smallH4: 'font-size: 16px; line-height: 32px',
     small: 'font-size: 18px; line-height: 30px',
     regular: 'font-size: 18px; line-height: 32px',
     large: 'font-size: 24px; line-height: 40px',
@@ -19,10 +20,15 @@ const theme = {
     },
     black: {
       lighter: '#ABA8AF',
-      light: '#564F62',
-      regular: '#211E26',
+      light: '#272727',
+      regular: '#872B97',
     },
-    primary: '#D7E3FC',
+    purple: {
+      regular: '#872B97',
+      light: '#FF7A99',
+      lighter: '#FF7130'
+    },
+    primary: '#F3CBF4',
   },
   screen: {
     xs: '575px',

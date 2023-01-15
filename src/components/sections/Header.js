@@ -19,7 +19,7 @@ const Header = () => (
           name: { eq: "header-pic" }
         ) {
           childImageSharp {
-            fluid(maxWidth: 1400) {
+            fluid(maxWidth: 1400, quality: 100) {
               ...GatsbyImageSharpFluid_withWebp_tracedSVG
             }
           }
@@ -45,16 +45,16 @@ const Header = () => (
               />
             </Art>
             <Text>
-              <h1 style={{ fontSize: "40px" }}>
+              <h1 style={{ fontSize: "40px"}}>
                 An inclusive all-women &amp; non-binary hackathon. <Emoji symbol="👩‍💻" />
               </h1>
               <br />
-              <h3>February 11-12, 2022</h3>
+              <h3>February 10-11, 2023</h3>
               <br />
-              <p>Applications for FemmeHacks 2022 open now!</p>
+              <p>Applications for FemmeHacks 2023 open now!</p>
               <p>
                 <div style={{ height: "24px" }}></div>
-                <StyledExternalLink className="header-register-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSeaSkU2ZfppdP9a4srNLh1A-rmnsU9hEQlK8YgCjGM7ykAWpg/viewform">
+                <StyledExternalLink className="header-register-btn" href="https://forms.gle/kkrF5KBK3j2Dgiw98">
                   Register now &nbsp;&#x2794;
                 </StyledExternalLink>
 

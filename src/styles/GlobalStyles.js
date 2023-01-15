@@ -22,14 +22,22 @@ const GlobalStyles = createGlobalStyle`
 
   h1 {
     ${props => props.theme.font_size.xlarge};
+    color: ${props => props.theme.color.purple.regular};
   }
 
   h2 {
     ${props => props.theme.font_size.larger};
+    color: ${props => props.theme.color.purple.light};
   }
 
   h3 {
     ${props => props.theme.font_size.large};
+    color: ${props => props.theme.color.purple.light};
+  }
+
+  p1 {
+    ${props => props.theme.font_size.regular};
+    color: ${props => props.theme.color.purple.lighter};
   }
 
   p {
@@ -60,7 +68,9 @@ const GlobalStyles = createGlobalStyle`
     background: none;
     outline: none;
     padding: 0;
-    cursor: pointer;
+    cursor: hand;
+    background-color: #872B97
+    color: #872B97
   }
 
   a {

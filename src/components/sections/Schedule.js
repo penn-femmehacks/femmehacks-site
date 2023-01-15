@@ -8,13 +8,13 @@ import Emoji from "../common/emoji"
 const Schedule = () => (
   <Section id="schedule" accent>
     <Container>
-      <h1>2022 Schedule<Emoji symbol="🕒" /></h1>
-      <br />
+      <h1>2023 Schedule Coming Soon!<Emoji symbol="🕒" /></h1>
+      {/* <br />
       <p> All the <b>meeting links</b> are available on our Airtable -- please check the <b>Event Location</b> section in the acceptance email to find the <b>Airtable link</b>! All times are in Eastern Standard Time (EST).</p>
       <br />
       { <Row>
         <Col xs={12} md={6}>
-          <h3>February 11 (Friday)</h3>
+          <h3>February 10 (Friday)</h3>
           <p>
             <br /><b>3:00pm - 6:00pm</b>: <b>Check-in</b>
             <br /><b>3:00pm - 4:30pm</b>: Self-intro &amp; Team Formation on Discord
@@ -36,7 +36,7 @@ const Schedule = () => (
         </Col>
 
         <Col xs={12} md={6}>
-          <h3>February 12 (Saturday)</h3>
+          <h3>February 11 (Saturday)</h3>
           <p>
             <br /><b>7:00am - 8:00am</b>: Breakfast
             <br /><b>8:00am</b>: <b>Hacking Starts</b>
@@ -63,7 +63,7 @@ const Schedule = () => (
             <br /><b>9:40pm</b>: <b>Closing Ceremony</b>
           </p>
         </Col>
-      </Row> }
+      </Row> } */}
     </Container>
   </Section>
 );
