@@ -63,7 +63,7 @@ const Sponsors = () => (
               <a href="https://www.alumni.upenn.edu/s/1587/gid2/16/interior_1col.aspx?sid=1587&gid=2&pgid=420"> <img className="sponsor-logo-class" src={TCPWLogo} /> </a>
     <a href="https://mackinstitute.wharton.upenn.edu"><img width="230px" src={MackLogo} /></a>*/}
               <a href="https://www.linode.com/"><img width="230px" src={LinodeLogo} /></a>
-              <a href="https://www.linode.com/"><img width="230px" src={JaneStreetLogo} /></a>
+              <a href="https://www.janestreet.com/"><img width="230px" src={JaneStreetLogo} /></a>
               {/* <a href="https://www.mckinsey.com/careers/home"><img width="230px" src={MckLogo} /></a> */}
               {/* <a href="https://www.twilio.com/company/jobs"><img width="230px" src={TwilioLogo} /></a> */}
               {/*<a href="https://1password.com/jobs/"><img width="230px" src={OnePLogo} /></a>*/}
