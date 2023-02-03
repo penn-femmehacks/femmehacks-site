@@ -26,6 +26,8 @@ import LinodeLogo from '@images/logos/linode.svg';
 import JaneStreetLogo from '@images/logos/jane-street.png';
 import BlueOriginLogo from '@images/logos/blue-origin.png';
 
+import EpicLogo from '@images/logos/epic.png';
+
 // const LOGOS = [
 //   {
 //     logo: FacebookLogo,
@@ -63,6 +65,7 @@ const Sponsors = () => (
     <a href="https://www.nerdwallet.com/?bucket_id=dt-hp&ds_rl=1246084&gclid=Cj0KCQiAgP6PBhDmARIsAPWMq6kU2lzF2hxIw7n67CEmqEmVPSZo0XmFuUD7hH8AlVhmSiV_zAweWEcaAoMBEALw_wcB&gclsrc=aw.ds&mktg_body=1678&mktg_hline=19498&mktg_img=3598&mktg_place=kwd-40958987563%7D&model_execution_id=DB0B89FD-876C-4011-83E1-4177EB33C3EC&nw_campaign_id=150238270218585900&utm_campaign=cc_mktg_paid_060716_brand_exact&utm_content=ta&utm_medium=cpc&utm_source=goog&utm_term=nerdwallet"> <img width="260px" src={NWLogo} /> </a> */}
               <a href="https://www.alumni.upenn.edu/s/1587/gid2/16/interior_1col.aspx?sid=1587&gid=2&pgid=420" target="_blank" rel="noopener noreferrer"> <img className="sponsor-logo-class" src={TCPWLogo} /> </a>
               <a href = "https://www.blueorigin.com/" target="_blank" rel="noopener noreferrer"><img width="230px" src = {BlueOriginLogo} /></a>
+              <a href = "https://www.epic.com/" target="_blank" rel="noopener noreferrer"><img width = "230px" src = {EpicLogo}/></a>
               <a href="https://www.janestreet.com/" target="_blank" rel="noopener noreferrer"><img width="230px" src={JaneStreetLogo} /></a>
               <a href="https://www.linode.com/" target="_blank" rel="noopener noreferrer"><img width="230px" src={LinodeLogo} /></a>
               <a href="https://mackinstitute.wharton.upenn.edu" target="_blank" rel="noopener noreferrer"><img width="230px" src={MackLogo} /></a>
