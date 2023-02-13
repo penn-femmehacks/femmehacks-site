@@ -8,7 +8,7 @@ import Emoji from "../common/emoji"
 const Schedule = () => (
   <Section id="schedule" accent>
     <Container>
-      <h1>2023 Schedule
+      <h1>2023 Schedule<Emoji symbol = "🕒"/>
         <br />
         <p> All the <b>meeting locations</b> are available on our Airtable -- please check the <b>Event Location</b> section in the acceptance email to find the <b>Airtable link</b>! All times are in Eastern Standard Time (EST).</p>
         <br />
